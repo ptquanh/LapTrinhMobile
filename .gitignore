@@ -1,0 +1,83 @@
+# ==========================================
+# Android & Gradle GitIgnore Configuration
+# ==========================================
+
+# Built application files & directories
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# Files for the ART/Dalvik VM
+*.class
+
+# Java byte code cache and package files
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Gradle files and directories
+.gradle/
+**/.gradle/
+build/
+**/build/
+app/build/
+**/app/build/
+!gradle-wrapper.jar
+gradle-app.setting
+.gradletasknamecache
+
+# Local configuration file (contains personal SDK/NDK paths)
+local.properties
+**/local.properties
+gradle/gradle-daemon-jvm.properties
+**/gradle/gradle-daemon-jvm.properties
+
+# Android Studio / IntelliJ IDEA project files
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/caches
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.navigation/
+
+# Android profiling / captures
+captures/
+**/captures/
+output.json
+
+# Keystore & signing files
+*.jks
+*.keystore
+
+# Google Services (if applicable)
+# google-services.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Python helper scripts cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Temporary and backup files
+*~
+*.swp
+*.bak
