@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.DemoWebView" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.DemoWebView" parent="Base.Theme.DemoWebView" />
+</resources>

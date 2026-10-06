@@ -1,0 +1,17 @@
+com.example.demoseekbar
+color black
+color purple_500
+color teal_700
+color white
+color yellow
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id main
+id seekBar
+id textView
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base_Theme_DemoSeekBar
+style Theme_DemoSeekBar

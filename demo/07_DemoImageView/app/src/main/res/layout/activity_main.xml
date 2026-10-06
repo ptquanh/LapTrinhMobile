@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:paddingTop="40dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textScaleType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ScaleType: CENTER"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/buttonCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Center" />
+
+            <Button
+                android:id="@+id/buttonCenterCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Center Crop" />
+
+            <Button
+                android:id="@+id/buttonCenterInside"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Center Inside" />
+
+            <Button
+                android:id="@+id/buttonFitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fit Center" />
+
+            <Button
+                android:id="@+id/buttonFitStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fit Start" />
+
+            <Button
+                android:id="@+id/buttonFitEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fit End" />
+
+            <Button
+                android:id="@+id/buttonFitXY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fit XY" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="center"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:background="#EEEEEE"
+            android:src="@drawable/sample_image" />
+
+    </LinearLayout>
+
+</LinearLayout>

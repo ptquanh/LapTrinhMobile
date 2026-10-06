@@ -1,0 +1,8 @@
+com.example.demoseekbar.app-pngs-0 D:\CODE PLAYGROUND\Courses\LTTBDĐ\demo\02_DemoSeekerBar\app\build\generated\res\pngs\debug
+com.example.demoseekbar.app-updated_navigation_xml-1 D:\CODE PLAYGROUND\Courses\LTTBDĐ\demo\02_DemoSeekerBar\app\build\generated\updated_navigation_xml\debug
+com.example.demoseekbar.app-packageDebugResources-2 D:\CODE PLAYGROUND\Courses\LTTBDĐ\demo\02_DemoSeekerBar\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.demoseekbar.app-packageDebugResources-3 D:\CODE PLAYGROUND\Courses\LTTBDĐ\demo\02_DemoSeekerBar\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.demoseekbar.app-debug-4 D:\CODE PLAYGROUND\Courses\LTTBDĐ\demo\02_DemoSeekerBar\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.demoseekbar.app-debug-5 D:\CODE PLAYGROUND\Courses\LTTBDĐ\demo\02_DemoSeekerBar\app\src\debug\res
+com.example.demoseekbar.app-main-6 D:\CODE PLAYGROUND\Courses\LTTBDĐ\demo\02_DemoSeekerBar\app\src\main\res
+gradleHome-0 C:\Users\Quoc Anh\.gradle
