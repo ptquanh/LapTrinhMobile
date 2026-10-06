@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textCenterCropStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Center Crop Style" />
+
+            <Button
+                android:id="@+id/buttonCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Center"
+                android:onClick="CenterActivity"/>
+
+            <Button
+                android:id="@+id/buttonCenterCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Center Crop" />
+
+            <Button
+                android:id="@+id/buttonCenterInside"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Center Inside" />
+
+            <Button
+                android:id="@+id/buttonFitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fit Center" />
+
+            <Button
+                android:id="@+id/buttonFitEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fit End" />
+
+            <Button
+                android:id="@+id/buttonFitStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fit Start" />
+
+            <Button
+                android:id="@+id/buttonFitXY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fit XY" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

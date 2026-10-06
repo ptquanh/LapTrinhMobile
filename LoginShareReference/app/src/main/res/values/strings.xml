@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LoginShareReference</string>
+    <string name="welcome_back">Chào mừng trở lại!</string>
+    <string name="sign_in_subtitle">Vui lòng đăng nhập để tiếp tục</string>
+    <string name="username_hint">Tên đăng nhập / Email</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="remember_me">Ghi nhớ đăng nhập</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="btn_login">ĐĂNG NHẬP</string>
+    <string name="or_login_with">Hoặc đăng nhập bằng</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="dont_have_account">Chưa có tài khoản?</string>
+    <string name="sign_up">Đăng ký ngay</string>
+    <string name="avatar_desc">Ảnh đại diện</string>
+    <string name="facebook_desc">Biểu tượng Facebook</string>
+    <string name="google_desc">Biểu tượng Google</string>
+</resources>
