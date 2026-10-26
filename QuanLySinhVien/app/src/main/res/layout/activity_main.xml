@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/logoLayout"
+        android:layout_width="353dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="326dp"
+            android:layout_height="66dp"
+            android:src="@drawable/logo" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDanhMucLopHoc"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/customize_button"
+        app:backgroundTint="@null"
+        android:text="Danh mục lớp học"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/logoLayout"
+        app:layout_constraintStart_toStartOf="@+id/logoLayout"
+        app:layout_constraintTop_toBottomOf="@+id/logoLayout" />
+
+    <Button
+        android:id="@+id/btnQuanLySinhVien"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/customize_button"
+        app:backgroundTint="@null"
+        android:text="Quản lý Sinh Viên"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/logoLayout"
+        app:layout_constraintStart_toStartOf="@+id/logoLayout"
+        app:layout_constraintTop_toBottomOf="@+id/btnDanhMucLopHoc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

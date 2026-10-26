@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:padding="16dp"
+    tools:context=".activity.QuanLySinhVienActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lớp:"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etLop"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/customize_edittext"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="2 D23"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Mã Sinh Viên"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etMaSV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/customize_edittext"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="SV002"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Họ tên Sinh Viên"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/customize_edittext"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="Nguyen Van B"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Ngày Tháng Năm Sinh"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etNgaySinh"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/customize_edittext"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="10/10/2020"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnLuu"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/customize_button"
+            app:backgroundTint="@null"
+            android:text="Lưu"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/customize_button"
+            app:backgroundTint="@null"
+            android:text="Thoát"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvSinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:divider="#A993C1"
+        android:dividerHeight="1dp"
+        android:background="@drawable/rounded_box_stroke_purple"
+        tools:listitem="@layout/item_sinh_vien" />
+
+</LinearLayout>
