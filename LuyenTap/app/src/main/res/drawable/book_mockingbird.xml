@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="160dp"
+    android:viewportWidth="120"
+    android:viewportHeight="160">
+    <!-- Earthy textured background -->
+    <path
+        android:fillColor="#3D1C06"
+        android:pathData="M0,0h120v160h-120z"/>
+    <path
+        android:fillColor="#733D15"
+        android:pathData="M10,10h100v140h-100z"/>
+    <!-- Tree branch -->
+    <path
+        android:strokeColor="#200E02"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M10,40Q45,55 70,35Q95,15 110,45M50,47Q65,70 90,65M30,44Q40,25 60,20"/>
+    <!-- Leaves / foliage dots -->
+    <path
+        android:fillColor="#A2672C"
+        android:pathData="M55,30a5,3 30 1,0 8,4a5,3 30 1,0 -8,-4zM85,38a6,4 15 1,0 9,5a6,4 15 1,0 -9,-5zM45,62a5,3 -20 1,0 7,4a5,3 -20 1,0 -7,-4z"/>
+    <!-- Mockingbird silhouette -->
+    <path
+        android:fillColor="#FFDD99"
+        android:pathData="M72,32q5,-6 10,-4q-2,4 -1,6q5,-1 8,-4q-4,8 -10,7q-3,3 -7,3z"/>
+    <!-- Title banner -->
+    <path
+        android:fillColor="#200E02"
+        android:pathData="M18,90h84v40h-84z"/>
+    <path
+        android:strokeColor="#FFDD99"
+        android:strokeWidth="1"
+        android:pathData="M22,94h76v32h-76z"/>
+    <path
+        android:fillColor="#FFDD99"
+        android:pathData="M30,102h60v3h-60zM35,110h50v2h-50zM40,116h40v2h-40z"/>
+</vector>

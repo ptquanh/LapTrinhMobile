@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="160dp"
+    android:viewportWidth="120"
+    android:viewportHeight="160">
+    <!-- Red outer background -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M0,0h120v160h-120z"/>
+    <!-- Outer orange/yellow border -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M8,8h104v144h-104z"/>
+    <!-- Big Blue Ring (The Eye of Big Brother) -->
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M60,80m-46,0a46,46 0 1,0 92,0a46,46 0 1,0 -92,0"/>
+    <!-- Dark Iris -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M60,80m-36,0a36,36 0 1,0 72,0a36,36 0 1,0 -72,0"/>
+    <!-- 1984 stylized text bars/motif -->
+    <!-- '1' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,70h3v18h-3z"/>
+    <!-- '9' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,70h10v10h-10zM48,70h3v18h-3zM55,70h3v18h-3zM48,77h10v3h-10z"/>
+    <!-- '8' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62,70h10v18h-10zM65,73h4v3h-4zM65,82h4v3h-4z"/>
+    <!-- '4' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M75,70h3v10h5v3h-5v5h-3v-5h-5v-3l5,-10z"/>
+    <!-- Top & bottom labels -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,22h50v4h-50zM42,135h36v3h-36z"/>
+</vector>

@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">LuyenTap</string>
+    <string name="app_name">Luyện Tập Giữa Kỳ</string>
+    <string name="tab_books">Books</string>
+    <string name="tab_cart">Cart</string>
+    <string name="tab_profile">Profile</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="profile_details">PROFILE DETAILS</string>
+    <string name="label_username">Username</string>
+    <string name="label_email">Email</string>
+    <string name="label_old_password">Old Password</string>
+    <string name="label_new_password">New Password</string>
+    <string name="default_username">bookworm99</string>
+    <string name="default_email">bookworm99@gmail.com</string>
 </resources>

@@ -1,10 +1,10 @@
 # CẨM NANG ÔN TẬP VÀ VẤN ĐÁP THỰC HÀNH LẬP TRÌNH THIẾT BỊ DI ĐỘNG (ANDROID)
 
-Bộ tài liệu tổng hợp chi tiết toàn bộ **14 bài thực hành Demo**, giải thích kiến trúc, luồng hoạt động, phân tích từng đoạn mã nguồn và bộ câu hỏi vấn đáp thường gặp giúp sinh viên tự tin trả lời thuyết phục trước Hội đồng Giảng viên.
+Bộ tài liệu tổng hợp chi tiết toàn bộ **15 bài thực hành Demo**, giải thích kiến trúc, luồng hoạt động, phân tích từng đoạn mã nguồn và bộ câu hỏi vấn đáp thường gặp giúp sinh viên tự tin trả lời thuyết phục trước Hội đồng Giảng viên.
 
 ---
 
-## 📑 Danh Mục Toàn Bộ 14 Demo
+## 📑 Danh Mục Toàn Bộ 15 Demo
 
 | STT | Dự án Demo | Chủ đề trọng tâm | File tài liệu chi tiết |
 |:---:|---|---|---|
@@ -16,12 +16,13 @@ Bộ tài liệu tổng hợp chi tiết toàn bộ **14 bài thực hành Demo*
 | **06** | `06_DemoWebView` | Nhúng trình duyệt web, WebSettings, JavaScript, xử lý WebViewClient & Back | [Xem tài liệu](06_DemoWebView.md) |
 | **07** | `07_DemoImageView` | Hiển thị hình ảnh, các chế độ scaleType, bộ nhớ Heap và tránh lỗi OOM | [Xem tài liệu](07_DemoImageView.md) |
 | **08** | `08_DemoListViewCoBan` | Danh sách cuộn 1 chiều, cơ chế Adapter, ArrayAdapter, cập nhật danh sách | [Xem tài liệu](08_DemoListViewCoBan.md) |
-| **09** | `09_DemoListViewNangCao` | Custom ListView, Model OOP, tối ưu hiệu năng với ViewHolder Pattern | [Xem tài liệu](09_DemoListViewNangCao.md) |
+| **09** | `09_DemoListViewNangCao` | Custom ListView, Model OOP, BaseAdapter & tái sử dụng `convertView` | [Xem tài liệu](09_DemoListViewNangCao.md) |
 | **10** | `10_DemoGridViewCoBan` | Lưới hiển thị 2 chiều GridView, cấu hình numColumns, khoảng cách lề | [Xem tài liệu](10_DemoGridViewCoBan.md) |
 | **11** | `11_DemoGridViewNangCao` | Custom GridView Gallery ảnh, truyền đối tượng Serializable qua Intent | [Xem tài liệu](11_DemoGridViewNangCao.md) |
 | **12** | `12_DemoViewPagerNNavigation` | Điều hướng BottomNavigationView kết hợp vuốt ngang ViewPager và Fragment | [Xem tài liệu](12_DemoViewPagerNNavigation.md) |
 | **13** | `13_DemoStorageNSharedPreferences` | Lưu trữ cấu hình SharedPreferences vs File nội bộ Internal Storage | [Xem tài liệu](13_DemoStorageNSharedPreferences.md) |
 | **14** | `14_DemoLoginSharePreference` | Tính năng ghi nhớ tài khoản (Remember Me), kiểm soát phiên đăng nhập | [Xem tài liệu](14_DemoLoginSharePreference.md) |
+| **15** | `15_DemoWeather` | Gọi RESTful WeatherAPI với Volley, tải ảnh Picasso, JSON & NetworkChangeReceiver | [Xem tài liệu](15_DemoWeather.md) |
 
 ---
 
@@ -39,10 +40,10 @@ Bộ tài liệu tổng hợp chi tiết toàn bộ **14 bài thực hành Demo*
 - **`dp` / `dip` (Density-independent Pixels):** Đơn vị độc lập với mật độ điểm ảnh. Chuẩn $1dp = 1px$ trên màn hình 160 dpi. Dùng cho kích thước view, padding, margin.
 - **`sp` (Scale-independent Pixels):** Tương tự `dp` nhưng co giãn tự động theo cỡ chữ mà người dùng cài đặt trong phần Cài đặt trợ năng của điện thoại. Dành riêng cho `textSize`.
 
-### 3. Cơ chế View Recycling & ViewHolder Pattern trong Adapter
+### 3. Cơ chế View Recycling (`convertView`) & Câu hỏi mở rộng `ViewHolder` trong Adapter
 - Cực kỳ quan trọng ở các bài ListView và GridView nâng cao.
-- **Tại sao cần convertView?** Để không phải tạo lại View mới khi cuộn danh sách, tái sử dụng các View đã cuộn khuất màn hình.
-- **Tại sao cần ViewHolder?** Để không phải gọi `findViewById()` nhiều lần, tránh việc duyệt cây view liên tục gây giảm FPS và giật lag.
+- **Tại sao cần kiểm tra `if (convertView == null)` (như trong code thực hành)?** Để chỉ `inflate` XML cho các dòng đầu tiên và tái sử dụng lại các View đã cuộn khuất màn hình thay vì cấp phát mới liên tục.
+- **Câu hỏi mở rộng về `ViewHolder` (nếu giảng viên hỏi cách tối ưu thêm):** Lưu sẵn tham chiếu các View con vào `setTag()`/`getTag()` để không phải gọi lại `findViewById()` khi cuộn danh sách lớn.
 
 ### 4. SharedPreferences: `commit()` vs `apply()`
 - `commit()`: Đồng bộ (blocking Main Thread), có trả về boolean.

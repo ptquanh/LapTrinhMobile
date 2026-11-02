@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="160dp"
+    android:viewportWidth="120"
+    android:viewportHeight="160">
+    <!-- Dark Forest / Middle Earth Background -->
+    <path
+        android:fillColor="#1B120C"
+        android:pathData="M0,0h120v160h-120z"/>
+    <!-- Mountain Silhouette -->
+    <path
+        android:fillColor="#2D1E12"
+        android:pathData="M0,70L25,45L45,65L75,30L100,55L120,40v120h-120z"/>
+    <!-- Glowing Golden Round Door / Ring -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M60,95m-30,0a30,30 0 1,0 60,0a30,30 0 1,0 -60,0"/>
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M60,95m-24,0a24,24 0 1,0 48,0a24,24 0 1,0 -48,0"/>
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M60,95m-18,0a18,18 0 1,0 36,0a18,18 0 1,0 -36,0"/>
+    <!-- Hobbit silhouette standing in doorway -->
+    <path
+        android:fillColor="#1B120C"
+        android:pathData="M60,86a4,4 0 1,0 0,-8a4,4 0 1,0 0,8zM57,87h6l2,15l4,10h-14l3,-10z"/>
+    <!-- Title banner -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M20,18h80v14h-80z"/>
+    <path
+        android:fillColor="#1B120C"
+        android:pathData="M24,22h72v6h-72z"/>
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M35,138h50v4h-50z"/>
+</vector>

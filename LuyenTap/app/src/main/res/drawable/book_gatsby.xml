@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="160dp"
+    android:viewportWidth="120"
+    android:viewportHeight="160">
+    <!-- Background -->
+    <path
+        android:fillColor="#0D1B2A"
+        android:pathData="M0,0h120v160h-120z"/>
+    <!-- Art Deco Gold Border -->
+    <path
+        android:fillColor="#1B263B"
+        android:pathData="M8,8h104v144h-104z"/>
+    <path
+        android:strokeColor="#E0A96D"
+        android:strokeWidth="1.5"
+        android:pathData="M14,14h92v132h-92z"/>
+    <path
+        android:strokeColor="#E0A96D"
+        android:strokeWidth="0.8"
+        android:pathData="M18,18h84v124h-84z"/>
+    <!-- Eyes / Lights motif -->
+    <path
+        android:fillColor="#E0A96D"
+        android:pathData="M40,55a20,12 0 1,0 40,0a20,12 0 1,0 -40,0z"/>
+    <path
+        android:fillColor="#0D1B2A"
+        android:pathData="M52,55a8,8 0 1,0 16,0a8,8 0 1,0 -16,0z"/>
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M58,53a3,3 0 1,0 6,0a3,3 0 1,0 -6,0z"/>
+    <!-- Title banner -->
+    <path
+        android:fillColor="#E0A96D"
+        android:pathData="M24,95h72v16h-72z"/>
+    <path
+        android:fillColor="#0D1B2A"
+        android:pathData="M28,99h64v8h-64z"/>
+    <!-- Deco lines -->
+    <path
+        android:strokeColor="#E0A96D"
+        android:strokeWidth="1"
+        android:pathData="M20,125L60,118L100,125M20,132L60,125L100,132"/>
+</vector>

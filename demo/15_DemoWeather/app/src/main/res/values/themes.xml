@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.DemoWeather" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/sky_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/sky_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_sky_container</item>
+        <item name="android:statusBarColor">@color/bg_screen</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.DemoWeather" parent="Base.Theme.DemoWeather" />
+</resources>
+

@@ -21,9 +21,8 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
                 return new SecondFragment();
             case 2:
                 return new ThirdFragment();
-            default:
-                return new FirstFragment();
         }
+        return null;
     }
 
     @Override
