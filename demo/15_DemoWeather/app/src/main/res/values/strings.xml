@@ -1,21 +1,3 @@
 <resources>
     <string name="app_name">15_DemoWeather</string>
-    <string name="default_city">Hanoi</string>
-    <string name="hint_enter_city">Nhập tên thành phố (VD: Hanoi, Saigon, London)</string>
-    <string name="default_temp">--.-°C</string>
-    <string name="default_condition">Đang tải dữ liệu thời tiết…</string>
-    <string name="forecast_section_title">Dự báo 24 giờ trong ngày</string>
-    <string name="network_checking">Đang kiểm tra kết nối mạng…</string>
-    <string name="badge_live_api">WeatherAPI</string>
-    <string name="badge_fallback">Dữ liệu dự phòng</string>
-    <string name="btn_retry">Thử lại</string>
-    <string name="sample_time">2026-11-01\n00:00</string>
-    <string name="sample_temp">26.0°C</string>
-    <string name="sample_wind">Gió: 12.0 km/h</string>
-
-    <!-- Accessibility Content Descriptions -->
-    <string name="desc_search_city">Tìm kiếm thời tiết thành phố</string>
-    <string name="desc_current_weather_icon">Biểu tượng thời tiết hiện tại</string>
-    <string name="desc_forecast_weather_icon">Biểu tượng dự báo thời tiết theo giờ</string>
 </resources>
-

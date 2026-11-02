@@ -44,19 +44,4 @@ public class WeatherForecastModel {
     public void setWindSpeed(String windSpeed) {
         this.windSpeed = windSpeed;
     }
-
-    public String getFullIconUrl() {
-        if (icon == null || icon.trim().isEmpty()) {
-            return null;
-        }
-        String trimmed = icon.trim();
-        if (trimmed.startsWith("http://") || trimmed.startsWith("https://")) {
-            return trimmed;
-        }
-        if (trimmed.startsWith("//")) {
-            return "https:" + trimmed;
-        }
-        return "https://" + trimmed;
-    }
 }
-

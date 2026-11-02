@@ -22,7 +22,7 @@ Bộ tài liệu tổng hợp chi tiết toàn bộ **15 bài thực hành Demo*
 | **12** | `12_DemoViewPagerNNavigation` | Điều hướng BottomNavigationView kết hợp vuốt ngang ViewPager và Fragment | [Xem tài liệu](12_DemoViewPagerNNavigation.md) |
 | **13** | `13_DemoStorageNSharedPreferences` | Lưu trữ cấu hình SharedPreferences vs File nội bộ Internal Storage | [Xem tài liệu](13_DemoStorageNSharedPreferences.md) |
 | **14** | `14_DemoLoginSharePreference` | Tính năng ghi nhớ tài khoản (Remember Me), kiểm soát phiên đăng nhập | [Xem tài liệu](14_DemoLoginSharePreference.md) |
-| **15** | `15_DemoWeather` | Gọi RESTful WeatherAPI với Volley, tải ảnh Picasso, JSON & NetworkChangeReceiver | [Xem tài liệu](15_DemoWeather.md) |
+| **15** | `15_DemoWeather` | Gọi RESTful WeatherAPI với Volley, tải ảnh Picasso, phân tích JSON & Custom ListView | [Xem tài liệu](15_DemoWeather.md) |
 
 ---
 
